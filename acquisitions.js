@@ -1,6 +1,8 @@
 import Chart from 'chart.js/auto'
 
 (async function() {
+  const labels = ['Вовлечение уязвимых групп (20%)', 'Компоненты теории изменений (60%)', 'Обоснованность достижения соц. воздействия(20%)'];
+  
   const data = {
     labels: labels,
     datasets: [
@@ -39,8 +41,6 @@ import Chart from 'chart.js/auto'
       }
     },
   }
-
-  const labels = ['Вовлечение уязвимых групп (20%)', 'Компоненты теории изменений (60%)', 'Обоснованность достижения соц. воздействия(20%)'];
 
   new Chart(
     document.getElementById('acquisitions'),
