@@ -1,4 +1,4 @@
-var acquisitions = document.getElementById('acquisitions');
+var acquisitions = document.getElementById('polarChart');
 
 var labels = ['Вовлечение уязвимых групп (20%)', 'Компоненты теории изменений (60%)', 'Обоснованность достижения соц. воздействия(20%)'];
   
@@ -52,7 +52,7 @@ var chartOptions = {
     },
     title: {
       display: true,
-      text: 'Визуализация социального аспекта'
+      text: 'Визуализация социального аспекта - Полярный график'
     }
   }
 }
