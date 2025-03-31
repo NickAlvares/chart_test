@@ -1,5 +1,3 @@
-import Chart from 'node_modules/chart.js/auto';
-
 var popCanvas = document.getElementById("popChart");
 
 var barChart = new Chart(popCanvas, {

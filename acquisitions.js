@@ -1,5 +1,3 @@
-import Chart from 'chart.js/auto';
-
 var acquisitions = document.getElementById('acquisitions');
 
 var labels = ['Вовлечение уязвимых групп (20%)', 'Компоненты теории изменений (60%)', 'Обоснованность достижения соц. воздействия(20%)'];
