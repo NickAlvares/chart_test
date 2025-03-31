@@ -28,17 +28,6 @@ var data = {
 
 var chartOptions = {
   responsive: true,
-  scales: {
-    r: {
-      pointLabels: {
-        display: auto,
-        centerPointLabels: true,
-        font: {
-          size: 18
-        }
-      }
-    }
-  },
   plugins: {
     legend: {
       position: 'top',
