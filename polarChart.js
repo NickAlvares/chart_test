@@ -47,7 +47,7 @@ var data = {
 var chartOptions = {
   responsive: true,
   interaction: {
-    intersect: false,
+    intersect: true,
     mode: 'nearest',
   },
   plugins: {
