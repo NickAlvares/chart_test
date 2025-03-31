@@ -48,7 +48,7 @@ var chartOptions = {
   responsive: true,
   interaction: {
     intersect: true,
-    mode: 'nearest',
+    mode: 'index',
   },
   plugins: {
     legend: {
