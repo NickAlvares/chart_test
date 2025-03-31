@@ -26,6 +26,7 @@ var data = {
     {
       label: 'Автоматическая оценка',
       data: [0.73, 0.42, 0.329],
+      borderColor: 'rgb(116, 52, 27)',
       backgroundColor: [
         'rgba(255, 99, 133, 0.5)',
         'rgba(54, 163, 235, 0.5)',
@@ -35,6 +36,7 @@ var data = {
     {
       label: 'Совокупная оценка',
       data: [0.73, 0.876, 0.739],
+      borderColor: 'rgb(0, 0, 0)',
       backgroundColor: [
         'rgba(255, 0, 55, 0.5)',
         'rgba(0, 153, 255, 0.5)',
