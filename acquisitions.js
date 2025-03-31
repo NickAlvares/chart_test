@@ -8,7 +8,11 @@ var data = {
     {
       label: 'Автоматическая оценка',
       data: [0.73, 0.811, 0.329],
-      backgroundColor: [red, orange, green]
+      backgroundColor: [
+        'rgb(255, 99, 132)',
+        'rgb(54, 162, 235)',
+        'rgb(255, 206, 86)'
+      ]
     }
   ]
 };
