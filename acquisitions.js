@@ -1,6 +1,6 @@
 var acquisitions = document.getElementById('acquisitions');
 
-var labels = ['Вовлечение /n уязвимых групп (20%)', 'Компоненты теории изменений (60%)', 'Обоснованность /n достижения соц. /n воздействия(20%)'];
+var labels = ['Вовлечение уязвимых групп (20%)', 'Компоненты теории изменений (60%)', 'Обоснованность достижения соц. воздействия(20%)'];
   
 var data = {
   labels: labels,
@@ -31,7 +31,7 @@ var chartOptions = {
   scales: {
     r: {
       pointLabels: {
-        display: true,
+        display: auto,
         centerPointLabels: true,
         font: {
           size: 18
