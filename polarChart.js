@@ -46,6 +46,10 @@ var data = {
 
 var chartOptions = {
   responsive: true,
+  interaction: {
+    intersect: false,
+    mode: 'nearest',
+  },
   plugins: {
     legend: {
       position: 'top',
